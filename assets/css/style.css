@@ -1,22 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 ul{
 list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   overflow: hidden;
-  background-color: #333333;
- 
- }
+  background-color: #f9d67a;
+  border-width: 5px;
+  }
 
   li {
     float: left;
-    margin: auto;
-    margin-right:15px;
-    
+    margin: auto; 
+    border-right: 1px solid #000;  
+    font-family: 'Lobster', cursive;
     }
 
 li a {
   display: block;
-  color: white;
+  color: #000;
   text-align: center;
   
   text-decoration: none;
@@ -28,3 +31,8 @@ li a:hover {
 }
 
 .row {margin-left:0;}
+
+img {
+    height: 30%;
+    width: 103%
+}
