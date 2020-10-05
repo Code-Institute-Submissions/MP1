@@ -8,7 +8,7 @@ list-style-type: none;
   overflow: hidden;
   background-color: #f9d67a;
   border-width: 5px;
-  width: 103%;
+  padding-right: 10px;
   }
 
   li {
@@ -16,6 +16,7 @@ list-style-type: none;
     margin: auto; 
     border-right: 1px solid #000;  
     font-family: 'Lobster', cursive;
+
     }
 
 li a {
@@ -31,8 +32,9 @@ li a:hover {
   background-color: #111111;
 }
 
-.row {margin-left:0;}
-
+.row {margin-left: -40px;
+    padding-right: 112px;}
+    
 img {
     height: 30%;
     width: 103%
@@ -46,7 +48,7 @@ footer div {
     width: 103%;
     float: left;
     text-align: center;
-    padding-left: 27%;
+    padding-left: 22%;
 
 }
 
