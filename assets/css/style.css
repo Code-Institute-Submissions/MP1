@@ -8,6 +8,7 @@ list-style-type: none;
   overflow: hidden;
   background-color: #f9d67a;
   border-width: 5px;
+  width: 103%;
   }
 
   li {
@@ -37,14 +38,26 @@ img {
     width: 103%
 }
 
+footer div {
+     margin: auto;
+}
+
 .footer {
-    width: 100%;
+    width: 103%;
     float: left;
+    text-align: center;
+    padding-left: 27%;
 
 }
 
-.footer li {
-    font-size: 3em;
-    padding-left: 85px;
-    padding-right: 85px;
+.footer li{
+    border-left: 1px solid #000;
+}
+
+.footer li a i{
+   font-size: 2em;
+    padding-left: 65px;
+    padding-right: 64px;
+    display: block;
+
 }
