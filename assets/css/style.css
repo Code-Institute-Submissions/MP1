@@ -36,3 +36,15 @@ img {
     height: 30%;
     width: 103%
 }
+
+.footer {
+    width: 100%;
+    float: left;
+
+}
+
+.footer li {
+    font-size: 3em;
+    padding-left: 85px;
+    padding-right: 85px;
+}
