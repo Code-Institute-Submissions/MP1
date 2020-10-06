@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
 
-ul{
+body {background-color: #ffffe6;}
+
+.nav{
 list-style-type: none;
   margin: 0;
   padding-top: 10px;
@@ -11,7 +13,7 @@ list-style-type: none;
   padding-right: 10px;
   }
 
-  li {
+ .nav li {
     float: left;
     margin: auto; 
     border-right: 1px solid #000;  
@@ -19,7 +21,7 @@ list-style-type: none;
 
     }
 
-li a {
+ li a {
   display: block;
   color: #000;
   text-align: center;
@@ -35,7 +37,7 @@ li a:hover {
 .row {margin-left: -40px;
     padding-right: 112px;}
     
-img {
+.banner img {
     height: 30%;
     width: 103%
 }
@@ -61,5 +63,63 @@ footer div {
     padding-left: 65px;
     padding-right: 64px;
     display: block;
-
 }
+
+.art div img {
+    height: 25%;
+    width: 33%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+section {
+    font-family: "Sansita Swashed";
+}
+
+section h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5%
+}
+section p {
+font-size: 17px;
+margin-left: 20%;
+margin-right: 20%;}
+
+section h2,h3,h4 {
+    margin-left: 15%;
+}
+
+.journal {
+    width:75%;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+   }
+
+   .blog h3, h4 {margin-bottom: 5%;}
+
+    .blog-list{ text-align: center;}
+
+
+   .blog-item{
+       text-align: center;
+         font-size:18px;
+   }
+
+
+   .running {
+       width:20%;
+   }
+
+   .aber {
+       width:20%;
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+   }
+
+ 
+
