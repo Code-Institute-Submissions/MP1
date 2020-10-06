@@ -101,7 +101,8 @@ section h2,h3,h4 {
 
    .blog h3, h4 {margin-bottom: 5%;}
 
-    .blog-list{ text-align: center;}
+    .blog-list{ text-align: center;
+    list-style-position: inside}
 
 
    .blog-item{
