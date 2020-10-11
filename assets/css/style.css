@@ -122,5 +122,19 @@ section h2,h3,h4 {
   margin-right: auto;
    }
 
+   
+
+    .contact li {
+      list-style-position: inside;
+         text-align: center;  
+         font-size: 30px;
+         list-style-type: none;
+    }
+
+.contacth2{
+    text-align: center;
+    margin-left: 0;
+    padding-bottom: 50px;
+}
  
 
