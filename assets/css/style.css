@@ -37,10 +37,8 @@ li a:hover {
 .row {margin-left: -40px;
     padding-right: 112px;}
     
-.banner img {
-    height: 30%;
-    width: 103%
-}
+.banner 
+{width: 100%}
 
 footer div {
      margin: auto;
@@ -138,3 +136,57 @@ section h2,h3,h4 {
 }
  
 
+.menulimg{
+    width: 35%;
+    float: left;
+    padding-top: 10%;
+}
+
+.menulheader{
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: -10%;
+}
+
+.menulp{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 0%;
+}
+
+.menurimg{
+    float: right;
+    width: 35%;
+    clear: both;
+    margin-top: -15%;
+}
+
+.menurheader{
+    clear: right;
+    margin-top: 10%;
+}
+
+.menulimg3{
+    width: 25%;
+    float: left;
+    padding-top: 10%;
+    }
+    
+.menulp3{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 0%;
+}
+
+
+
+
+
+.menurp{
+    clear: right;
+        margin-left: 0;
+    margin-right: 40%;
+    text-align: center;
+    
+}
