@@ -10,16 +10,19 @@ list-style-type: none;
   overflow: hidden;
   background-color: #f9d67a;
   border-width: 5px;
-  padding-right: 10px;
+  
   }
 
  .nav li {
     float: left;
     margin: auto; 
     border-right: 1px solid #000;  
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive;  
+ }
 
-    }
+ .nav li:last-child{
+     border-style: none;
+ }
 
  li a {
   display: block;
@@ -34,8 +37,6 @@ li a:hover {
   background-color: #111111;
 }
 
-.row {margin-left: -40px;
-    padding-right: 112px;}
     
 .banner 
 {width: 100%}
@@ -45,30 +46,29 @@ footer div {
 }
 
 .footer {
-    width: 103%;
+    width: 100%;
     float: left;
     text-align: center;
-    padding-left: 22%;
+    
+  list-style: inside;
 
 }
 
-.footer li{
-    border-left: 1px solid #000;
-}
+
 
 .footer li a i{
    font-size: 2em;
-    padding-left: 65px;
-    padding-right: 64px;
-    display: block;
+      padding: 10px 20px;
+   
 }
 
 .art div img {
     height: 25%;
-    width: 33%;
+    width: 20%;
     float: left;
     padding-left: 5%;
     padding-right: 5%;
+   margin-left:10%;
 }
 
 
@@ -87,7 +87,7 @@ margin-left: 20%;
 margin-right: 20%;}
 
 section h2,h3,h4 {
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
 .journal {
@@ -96,6 +96,29 @@ section h2,h3,h4 {
     margin-left: auto;
   margin-right: auto;
    }
+
+   @media screen and (max-width: 480px) {
+      .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 2px;
+    }
+ 
+.footer li a i {
+    font-size: 1em;
+    padding: 0px 13px;}
+   
+    
+.art div img {
+    height: 0%;
+    width: 25%;
+    float: left;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 6%;
+
+   }
+ }
 
    .blog h3, h4 {margin-bottom: 5%;}
 
