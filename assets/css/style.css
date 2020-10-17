@@ -190,7 +190,7 @@ section h2,h3,h4 {
     margin-top: 10%;
     text-align: center;
     margin-left: 0%;
-    margin-right: -10%;
+  
 }
 
 .menulp{
@@ -203,7 +203,9 @@ section h2,h3,h4 {
     float: right;
     width: 35%;
     clear: both;
-    margin-top: -15%;
+    margin-top: -25%;
+    padding-right: 10%;
+}
 }
 
 .menurheader{
@@ -212,9 +214,9 @@ section h2,h3,h4 {
 }
 
 .menulimg3{
-    width: 25%;
+    width: 30%;
     float: left;
-    padding-top: 10%;
+    padding-top: 20%;
     }
     
 .menulp3{
@@ -229,8 +231,15 @@ section h2,h3,h4 {
 
 .menurp{
     clear: right;
-        margin-left: 0;
+        margin-left: 10%;
     margin-right: 40%;
-    text-align: center;
     
+    text-align: center;
+}
+.container {
+    padding:0 0;
+}
+
+.row {
+    margin: 0 0;
 }
