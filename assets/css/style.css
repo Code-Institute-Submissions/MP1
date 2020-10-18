@@ -225,6 +225,7 @@ margin-bottom: 10%;}
 
 .bloglimg{
     width:100%;
+    margin-top:10vw;
 }
 
 .columnblogl{
@@ -234,13 +235,13 @@ margin-bottom: 10%;}
     text-align: center;
     margin-left: 10%;
     margin-right: 0%;
-    font-size: 28px;
+    font-size: 4vw;
 }
 .bloglp{
     text-align: center;
     margin-left: 10%;
     margin-right: 0%;
-    font-size: 28px;
+    font-size: 3vw;
 }
 
 .columnblogr{
@@ -249,7 +250,7 @@ margin-bottom: 10%;}
 .blogrheader{ text-align: center;
     margin-left: 10%;
     margin-right: 0%;
-    font-size: 28px;
+    font-size: 4vw;
     }
 
 .blogrp{
@@ -257,7 +258,7 @@ margin-bottom: 10%;}
     margin-left: 0;
     margin-right: 10%;
     text-align: center;
-    font-size:28px;
+    font-size:3vw;
     }
 
 .columnblogrimg{
@@ -293,6 +294,7 @@ text-align: center;}
 .blog1 {
     max-width:66%;
     text-align: center;  
+    margin-left:19%;
 }
 
 /*-----------------Guys and Dolls--------------------------*/
