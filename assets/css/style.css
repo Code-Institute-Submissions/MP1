@@ -5,8 +5,7 @@ body {background-color: #ffffe6;}
 .nav{
 list-style-type: none;
   margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  
   overflow: hidden;
   background-color: #f9d67a;
   border-width: 5px;
@@ -15,10 +14,16 @@ list-style-type: none;
 
  .nav li {
     float: left;
-       border-left: 1px solid #000; 
+    border-left: 1px solid #000; 
     margin: auto; 
     font-family: 'Lobster', cursive;  
+    padding-top: 1%;
+    padding-bottom: 1%;
  }
+
+ .row li:first-child{ border-style: none;}
+
+ .navigation{font-size: 3vw}
 
  
  li a {
@@ -46,9 +51,8 @@ footer div {
     width: 100%;
     float: left;
     text-align: center;
+    list-style: inside;
     
-  list-style: inside;
-
 }
 
 .footer li{
@@ -62,7 +66,9 @@ footer div {
     border-style: none;
 }
 
-
+section {
+    font-family: "Sansita Swashed";
+}
 
 
 .footer li a i{
@@ -70,7 +76,7 @@ footer div {
       padding: 10px 20px;
    
 }
-
+/*-----------------index.html-------------------------------*/
 .art div{
        padding-left: 13%;
     padding-right: 17%;
@@ -85,61 +91,28 @@ footer div {
     padding-right: 5%;
 }
 
-
-section {
-    font-family: "Sansita Swashed";
-}
-
 section h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 4.25vw;
     margin-bottom: 5%
 }
-section p {
-font-size: 25px;
+.home p {
+font-size: 2.5vw;
 margin-left: 20%;
 margin-right: 20%;
 word-spacing: 3px;}
 
-h2 {font-size:60px}
-h3 {font-size:40px;}
-h4 {font-size:30px;}
+h2 {font-size:4vw}
+h3 {font-size:3vw;}
+h4 {font-size:2.5vw;}
 
-section h2,h3,h4 {
+.home h2,h3,h4 {
     margin-left: 20%;
 }
 
-.journal {
-    width:75%;
-    display: block;
-    margin-left: auto;
-  margin-right: auto;
-   }
 
 
-
-   @media screen and (max-width: 480px) {
-      .nav>li>a {
-    position: relative;
-    display: block;
-    padding: 10px 2px;
-    }
- 
-.footer li a i {
-    font-size: 1em;
-    padding: 0px 13px;}
-   
-    
-.art div img {
-    height: 0%;
-    width: 25%;
-    float: left;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-left: 6%;
-
-   }
- }
+/*----------------------------*/    
 
    .blog h3, h4 {margin-bottom: 5%;}
 
@@ -164,82 +137,280 @@ section h2,h3,h4 {
   margin-right: auto;
    }
 
-   
+.columnprojectl {
+    max-width: 60%;
+}
+.columnprojectlimg{
+    max-width: 40%;
+}
+.projectlp{
+         text-align: center;
+    margin-left: 40%;
+    margin-right: 0%;
+    font-size: 2.5vw;
+}
 
-    .contact li {
-      list-style-position: inside;
-         text-align: center;  
-         font-size: 30px;
-         list-style-type: none;
-    }
+.projectlimg{width: 130%;
+    margin-top: 20%;
+    height: auto;
+}
+
+.projectlheader{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 0;
+}
+
+
+.projectrp{
+    clear: right;
+    margin-left: 0;
+    margin-right: 10%;
+    text-align: center;
+    font-size:2.5vw;}
+
+.projectrimg{
+    width:100%;
+    margin-top: 25%;
+}
+
+.projectrheader{
+    text-align: center;
+}
+.columnprojectr{max-width:60%}
+
+.columnprojectrimg{max-width: 40%;}
+
+   /*-----------------------*/
+
+.contact li {
+    list-style-position: inside;
+    text-align: center;  
+    font-size: 30px;
+    list-style-type: none;
+}
 
 .contacth2{
     text-align: center;
     margin-left: 0;
     padding-bottom: 50px;
 }
- 
 
-.menulimg{
-    width: 35%;
-    float: left;
-    padding-top: 10%;
+
+/*-----------------------*/
+.columnbloglimg{
+    max-width:34%;
 }
 
-.menulheader{
-    margin-top: 10%;
-    text-align: center;
-    margin-left: 0%;
-  
+.bloglimg{
+    width:100%;
 }
 
-.menulp{
+.columnblogl{
+    max-width:66%;
+}
+.bloglheader{
     text-align: center;
-    margin-left: 40%;
+    margin-left: 10%;
     margin-right: 0%;
+    font-size: 28px;
+}
+.bloglp{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 0%;
+    font-size: 28px;
 }
 
-.menurimg{
-    float: right;
-    width: 35%;
-    clear: both;
-    margin-top: -25%;
-    padding-right: 10%;
+.columnblogr{
+    max-width: 66%
 }
-}
-
-.menurheader{
-    clear: right;
-    margin-top: 10%;
-}
-
-.menulimg3{
-    width: 30%;
-    float: left;
-    padding-top: 20%;
+.blogrheader{ text-align: center;
+    margin-left: 10%;
+    margin-right: 0%;
+    font-size: 28px;
     }
-    
-.menulp3{
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 0%;
-}
 
-
-
-
-
-.menurp{
+.blogrp{
     clear: right;
-        margin-left: 10%;
-    margin-right: 40%;
-    
+    margin-left: 0;
+    margin-right: 10%;
     text-align: center;
+    font-size:28px;
+    }
+
+.columnblogrimg{
+    max-width:34%;
 }
-.container {
-    padding:0 0;
+
+.blogrimg{
+    width:100%;
+    margin-top:37%;
 }
 
 .row {
     margin: 0 0;
+}  
+.container{
+    margin-left: 0;
+    margin-right: 0;
 }
+/*--------------------------------------------*/
+
+
+/*-----------------Guys and Dolls--------------------------*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+  flex: 33%;
+  max-width: 48%;
+  padding: 0 4px;
+}
+
+.column2 {
+  flex: 33%;
+  max-width: 26%;
+  padding: 0 4px;
+}
+
+
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+.gndp{
+   
+    margin-left: 0%;
+    margin-right: 0%;
+    word-spacing: 3px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+
+
+.gndtitle h4{
+    margin-bottom: 0;
+    margin-left:0;
+}
+
+.gndtitle{
+    text-align: center;
+}
+.cast{
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;}
+
+.castheading{
+    font-weight: bold;}
+
+@media screen and (min-width:801px){
+.cast{
+    font-size: 25px;
+}
+.gndtitle h5{
+    font-size: 25px;
+}
+.castheading{
+    font-size: 25px;
+    
+}
+.gndp{font-size: 30px;
+ margin-top:10%;}
+}
+/*------------------------------------------------*/
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .gndp{
+    font-size: 19px;
+    margin-top:10%;
+   }
+
+   .gndtitle h2{
+       font-size:24px
+   }
+   .gndtitle h5{
+    font-size: 20px;
+}
+    .gndtitle h4{
+    margin-bottom: 0;
+    font-size:20px;
+}
+}
+/*------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  
+ .gndp{
+   font-size: 14px;
+    margin-left: 0%;
+    margin-right: 0%;
+    word-spacing: 3px;
+    text-align: center;
+    margin-top: 15%;
+   
+}
+
+  .cast{
+      font-size:14px;
+      
+  }
+  .castheading{font-size:18px;}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  padding-top:10%;
+}
+}
+@media screen and (max-width: 480px) {
+      .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 2px;
+    font-size: 100%;   
+    }
+ 
+.footer li a i {
+    font-size: 1em;
+    padding: 0px 13px;}
+   
+    
+.art div img {
+    height: 0%;
+    width: 25%;
+    float: left;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 6%;
+
+   }
+     .cast{
+    list-style: none;
+    text-align: center;
+    font-size: 10px;
+    padding-inline-start: 0px;
+}
+
+.castheading{
+    font-size: 12px;
+    font-weight: bold; 
+}
+ }
