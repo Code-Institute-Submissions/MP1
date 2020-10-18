@@ -15,10 +15,11 @@ list-style-type: none;
  .nav li {
     float: left;
     border-left: 1px solid #000; 
-    margin: auto; 
+    margin: 0; 
     font-family: 'Lobster', cursive;  
     padding-top: 1%;
     padding-bottom: 1%;
+    width:25%;
  }
 
  .row li:first-child{ border-style: none;}
@@ -145,7 +146,7 @@ h4 {font-size:2.5vw;}
 }
 .projectlp{
          text-align: center;
-    margin-left: 40%;
+    margin-left: 25%;
     margin-right: 0%;
     font-size: 2.5vw;
 }
@@ -157,7 +158,7 @@ h4 {font-size:2.5vw;}
 
 .projectlheader{
     text-align: center;
-    margin-left: 40%;
+    margin-left: 25%;
     margin-right: 0;
 }
 
@@ -414,3 +415,9 @@ h4 {font-size:2.5vw;}
     font-weight: bold; 
 }
  }
+
+ @media (min-width: 768px){
+.container {
+    width: 100%;
+}
+}
