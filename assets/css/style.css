@@ -75,6 +75,7 @@ footer div {
   list-style: inside;
   position: inherit;
   padding-bottom: 0;
+  list-style-type: none;
 }
 
 .footer li {
@@ -84,6 +85,7 @@ footer div {
   padding-top: 0%;
   padding-bottom: 0%;
   width: 25%;
+ 
 }
 
 .footer li a {
@@ -91,7 +93,7 @@ footer div {
   padding-bottom: 0;
 }
 
-.footer li:last-child {
+.footer li:first-child {
   border-style: none;
 }
 
