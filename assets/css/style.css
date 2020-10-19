@@ -395,7 +395,7 @@ h4 {
 .cast {
   list-style: none;
   text-align: center;
-  
+
   font-size: 2vw;
 }
 
@@ -464,4 +464,9 @@ form {
 
 .contact {
   font-size: 4vw;
+}
+
+textarea {
+  height: 20vw;
+  width: 100%;
 }
