@@ -32,14 +32,19 @@ body {
 
 .navigation {
   font-size: 2.5vw;
-  padding: 0px 15px;
+  padding: 0px 0px;
+}
+
+.col-sm-3 {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .nav > li > a {
   position: relative;
   display: block;
-  padding-top: 1.5vw;
-  padding-bottom: 1.5vw;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 li a {
@@ -57,7 +62,7 @@ li a:hover {
 
 .banner {
   width: 100%;
-  padding-top: 5vw;
+  padding-top: 3vw;
   position: static;
 }
 
@@ -98,8 +103,8 @@ section {
 }
 
 .footer li a i {
-  font-size: 2em;
-  padding: 10px 20px;
+  font-size: 3vw;
+  padding: 0 2vw;
 }
 /*-----------------index.html-------------------------------*/
 .art div {
@@ -119,7 +124,7 @@ section h1 {
   text-align: center;
   font-size: 5vw;
   margin-bottom: 5%;
-  margin-top: 10%;
+  margin-top: 5%;
   font-family: "lobster";
 }
 .home p {
@@ -390,7 +395,7 @@ h4 {
 .cast {
   list-style: none;
   text-align: center;
-  padding-inline-start: 0px;
+  
   font-size: 2vw;
 }
 
@@ -427,9 +432,36 @@ h4 {
   text-align: center;
 }
 
-
 /*---contact.html-----*/
-textarea {
-    overflow: auto;
-    width: 100%;
-    
+table {
+  margin: auto;
+}
+
+form {
+  font-size: 1.5vw;
+}
+
+.entry {
+  width: 26%;
+  min-width: 20%;
+  text-align: center;
+  padding-right: 3vw;
+}
+
+.entryrows {
+  text-align: center;
+}
+
+.submit {
+  margin: auto;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #f9d67a;
+  font-family: "lobster";
+  font-size: 1.5vw;
+}
+
+.contact {
+  font-size: 4vw;
+}
