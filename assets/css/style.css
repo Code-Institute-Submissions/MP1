@@ -1,43 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap");
 
-body {background-color: #ffffe6;}
+body {
+  background-color: #ffffe6;
+}
 
-.nav{
-list-style-type: none;
+.nav {
+  list-style-type: none;
   margin: 0;
   overflow: hidden;
   background-color: #f9d67a;
   border-width: 5px;
-  }
+}
 
-  .sticky{position: fixed;
-  width:100%;
- padding-top: 60px;}
+.sticky {
+  position: fixed;
+  width: 100%;
+}
 
- .nav li {
-    float: left;
-    border-left: 1px solid #000; 
-    margin: 0; 
-    font-family: 'Lobster', cursive;  
-   
-    width:25%;
- }
+.nav li {
+  float: left;
+  border-left: 1px solid #000;
+  margin: 0;
+  font-family: "Lobster", cursive;
 
- .row li:first-child{ border-style: none;}
+  width: 25%;
+}
 
- .navigation{font-size: 2.5vw;
-     padding: 0px 15px;}
-.nav>li>a {
-    position: relative;
-    display: block;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;}
- 
- li a {
+.row li:first-child {
+  border-style: none;
+}
+
+.navigation {
+  font-size: 2.5vw;
+  padding: 0px 15px;
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+}
+
+li a {
   display: block;
   color: #000;
   text-align: center;
-  
+
   text-decoration: none;
   font-size: 2vw;
 }
@@ -46,255 +55,293 @@ li a:hover {
   background-color: #111111;
 }
 
-    
-.banner 
-{width: 100%;
-padding-top: 5vw;
-position: static;
+.banner {
+  width: 100%;
+  padding-top: 5vw;
+  position: static;
 }
 
 footer div {
-     margin: auto;
-     padding-top:25%;
+  margin: auto;
+  padding-top: 1vw;
 }
 
 .footer {
-    width: 100%;
-    float: left;
-    text-align: center;
-    list-style: inside;
-    position: inherit;
-    padding-bottom: 0;
-    
-}
-    
-
-
-.footer li{
-    float: right;
-    margin: auto; 
-    font-family: 'Lobster', cursive; 
-    border-left: 1px solid #000;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    width: 25%;
+  width: 100%;
+  float: left;
+  text-align: center;
+  list-style: inside;
+  position: inherit;
+  padding-bottom: 0;
 }
 
-.footer li:last-child{
-    border-style: none;
+.footer li {
+  float: right;
+  margin: auto;
+  border-left: 1px solid #000;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  width: 25%;
+}
+
+.footer li a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer li:last-child {
+  border-style: none;
 }
 
 section {
-    font-family: "Sansita Swashed";
+  font-family: "roboto";
 }
 
-
-.footer li a i{
-   font-size: 2em;
-      padding: 10px 20px;
-   
+.footer li a i {
+  font-size: 2em;
+  padding: 10px 20px;
 }
 /*-----------------index.html-------------------------------*/
-.art div{
-       padding-left: 13%;
-    padding-right: 17%;
-    margin-left: 4%;
+.art div {
+  padding-left: 13%;
+  padding-right: 17%;
+  margin-left: 4%;
 }
 
-
 .art div img {
-       width: 33%;
-    float: left;
-    padding-left: 5%;
-    padding-right: 5%;
+  width: 33%;
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 section h1 {
-    text-align: center;
-    font-size: 5vw;
-    margin-bottom: 5%;
-    margin-top: 10%;
-    font-family: "lobster";
+  text-align: center;
+  font-size: 5vw;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  font-family: "lobster";
 }
 .home p {
-font-size: 2vw;
-margin-left: 20%;
-margin-right: 20%;
-word-spacing: 3px;
-font-family: "Roboto"; }
-
-h2 {font-size:3vw}
-h3 {font-size:2.5vw;}
-h4 {font-size:2vw;}
-
-.home h2,h3,h4 {
-    margin-left: 20%;
+  font-size: 2vw;
+  margin-left: 20%;
+  margin-right: 20%;
+  word-spacing: 3px;
+  font-family: "Roboto";
 }
 
+h2 {
+  font-size: 3vw;
+}
+h3 {
+  font-size: 2.5vw;
+}
+h4 {
+  font-size: 2vw;
+}
 
+.home h2,
+h3,
+h4 {
+  margin-left: 20%;
+}
 
-/*----------------------------*/    
+/*----------------------------*/
 
-   .blog h3, h4 {margin-bottom: 5%;}
+.blog h3,
+h4 {
+  margin-bottom: 5%;
+}
 
- 
+.running {
+  width: 40vw;
+  margin-left: 14vw;
+}
 
-   .running {
-       width:20%;
-   }
-
-   .aber {
-       width:20%;
-         display: block;
+.aber {
+  width: 40vw;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-   }
+}
 
-.project{margin: 10%;}
+.project {
+  margin: 5vw;
+}
 
 .columnprojectl {
-    max-width: 60%;
-    margin-bottom: 10%;
+  max-width: 60%;
+  margin-bottom: 10%;
 }
-.columnprojectlimg{
-    max-width: 40%;
-    margin-bottom: 10%;;
-}
-.projectlp{
-         text-align: center;
-    margin-left: 25%;
-    margin-right: 0%;
-    font-size: 2vw;
-    font-family: "roboto";
+.columnprojectlimg {
+  max-width: 40%;
+  margin-bottom: 10%;
 }
 
-.projectlimg{width: 130%;
-    margin-top: 20%;
-    height: auto;
+.columnprojectlimg2 {
+  max-width: 40%;
+  margin-bottom: -10%;
+}
+.projectlp {
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 2vw;
+  font-family: "roboto";
+  margin-bottom: 10%;
 }
 
-.projectlheader{
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 0;
+.projectlimg {
+  width: 100%;
+  margin-top: 30%;
+  height: auto;
+}
+.projectlimg2 {
+  width: 125%;
+  margin-top: 20%;
+  height: 50%;
+  object-fit: contain;
 }
 
-
-.projectrp{
-    clear: right;
-    margin-left: 0;
-    margin-right: 10%;
-    text-align: center;
-    font-size:2vw;
-    font-family: "roboto";}
-
-.projectrimg{
-    width:100%;
-    margin-top: 25%;
+.projectlheader {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10%;
+  font-family: "lobster";
 }
 
-.projectrheader{
-    text-align: center;
-}
-.columnprojectr{max-width:60%;
-margin-bottom: 10%;}
-
-.columnprojectrimg{max-width: 40%;
-margin-bottom: 10%;}
-
-   /*-----------------------*/
-
-.contact li {
-    list-style-position: inside;
-    text-align: center;  
-    font-size: 30px;
-    list-style-type: none;
+.projectrp {
+  clear: right;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-size: 2vw;
+  font-family: "roboto";
 }
 
-.contacth2{
-    text-align: center;
-    margin-left: 0;
-    padding-bottom: 50px;
+.projectrimg {
+  width: 100%;
+  margin-top: 20%;
 }
 
+.projectrheader {
+  text-align: center;
+  font-family: "lobster";
+}
+.columnprojectr {
+  max-width: 60%;
+  margin-bottom: 10%;
+}
+
+.columnprojectrimg {
+  max-width: 40%;
+  margin-bottom: 10%;
+}
 
 /*-----------------------*/
-.columnbloglimg{
-    max-width:34%;
+
+.contact li {
+  list-style-position: inside;
+  text-align: center;
+  font-size: 30px;
+  list-style-type: none;
 }
 
-.bloglimg{
-    width:100%;
-    margin-top:10vw;
+.contacth2 {
+  text-align: center;
+  margin-left: 0;
+  padding-bottom: 50px;
 }
 
-.columnblogl{
-    max-width:66%;
-}
-.bloglheader{
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 0%;
-    font-size: 4vw;
-}
-.bloglp{
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 0%;
-    font-size: 3vw;
+/*-----------------------*/
+.columnbloglimg {
+  max-width: 34%;
 }
 
-.columnblogr{
-    max-width: 66%
-}
-.blogrheader{ text-align: center;
-    margin-left: 10%;
-    margin-right: 0%;
-    font-size: 4vw;
-    }
-
-.blogrp{
-    clear: right;
-    margin-left: 0;
-    margin-right: 10%;
-    text-align: center;
-    font-size:3vw;
-    }
-
-.columnblogrimg{
-    max-width:34%;
+.bloglimg {
+  width: 30vw;
+  margin-top: 10vw;
+  margin-left: 4vw;
 }
 
-.blogrimg{
-    width:100%;
-    margin-top:37%;
+.columnblogl {
+  max-width: 66%;
+  margin-top: 10vw;
+}
+.bloglheader {
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 0%;
+  font-size: 2.5vw;
+  font-family: "lobster";
+}
+.bloglp {
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 0%;
+  font-size: 2vw;
+  font-family: "roboto";
+  margin-bottom: 10%;
+}
+
+.columnblogr {
+  max-width: 66%;
+}
+.blogrheader {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 5vw;
+  font-size: 2.5vw;
+  font-family: "lobster";
+}
+
+.blogrp {
+  clear: right;
+  margin-left: 0;
+  margin-right: 10%;
+  text-align: center;
+  font-size: 2vw;
+  font-family: "roboto";
+}
+
+.columnblogrimg {
+  max-width: 34%;
+}
+
+.blogrimg {
+  width: 100%;
+  margin-top: 37%;
 }
 
 .row {
-    margin: 0 0;
-}  
-.container{
-    margin-left: 0;
-    margin-right: 0;
+  margin: 0 0;
+}
+.container {
+  margin-left: 0;
+  margin-right: 0;
 }
 /*--------------------------------------------*/
 
-.columnblogpost{
-    max-width:66%;
-    text-align: left;
-    margin-left:16%;
-    margin-right:16%;
-    font-size: 2vw;
+.columnblogpost {
+  max-width: 66%;
+  text-align: left;
+  margin-left: 16%;
+  margin-right: 16%;
+  font-size: 2vw;
 }
 
-.blogposttitle{margin-left:0;
-font-size:3vw;
-text-align: center;}
+.blogposttitle {
+  margin-left: 0;
+  font-size: 3vw;
+  text-align: center;
+  font-family: "lobster";
+}
 
 .blog1 {
-    max-width:66%;
-    text-align: center;  
-    margin-left:19%;
+  max-width: 66%;
+  text-align: center;
+  margin-left: 19%;
 }
 
 /*-----------------Guys and Dolls--------------------------*/
@@ -317,42 +364,65 @@ text-align: center;}
   padding: 0 4px;
 }
 
-
-
 .column2 img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
 
-
-.gndp{
-   
-    margin-left: 0%;
-    margin-right: 0%;
-    word-spacing: 3px;
-    text-align: center;
-    margin-top: 15%;
-    font-size:2vw;
+.gndp {
+  margin-left: 0%;
+  margin-right: 0%;
+  word-spacing: 3px;
+  text-align: center;
+  margin-top: 15%;
+  font-size: 2vw;
 }
 
-
-
-.gndtitle h4{
-    margin-bottom: 0;
-    margin-left:0;
+.blogtitle h4 {
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
-.gndtitle{
-    text-align: center;
+.blogtitle {
+  text-align: center;
 }
-.cast{
-    list-style: none;
-    text-align: center;
-    padding-inline-start: 0px;
-    font-size: 2vw;}
+.cast {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0px;
+  font-size: 2vw;
+}
 
-.castheading{
-    font-weight: bold;
-    font-size: 2vw;}
+.castheading {
+  font-weight: bold;
+  font-size: 2vw;
+}
 
+/*--------Vagina Monologues-------------*/
+.project2p {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+}
+
+/*-------Moments of Time---------*/
+.project3p {
+  font-size: 1.5vw;
+  margin-top: 2vw;
+}
+
+/*-------Girls Like That--------*/
+.project4p {
+  font-size: 1.5vw;
+  margin-top: 2vw;
+}
+
+/*------Projects------*/
+.projecttitle h4 {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.projecttitle {
+  text-align: center;
+}
