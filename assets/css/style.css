@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
 body {
   background-color: #ffffe6;
   margin:0;
 }
 
+section {
+  font-family: "roboto";
+}
+/*---------------------------------------------------------------------navigation-----------------------------------------------------------*/
 .nav {
   list-style-type: none;
   margin: 0;
@@ -22,7 +29,7 @@ body {
   border-left: 1px solid #000;
   margin: 0;
   font-family: "Lobster", cursive;
-  width: 25%;
+  width: 24%;
 }
 
 .row li:first-child {
@@ -65,15 +72,17 @@ li a:hover {
 
 .banner {
   width: 100%;
-  padding-top: 5vw;
+  padding-top: 3vw;
   position: static;
   
 }
 
+/*--------------------------------------Footer-----------------------------------------------------*/
 
 footer div {
   margin: auto;
   padding-top: 1vw;
+  
 }
 
 .footer {
@@ -92,7 +101,9 @@ footer div {
   border-left: 1px solid #000;
   padding-top: 0%;
   padding-bottom: 0%;
-  width: 25%;
+  width: 24%;
+  padding-left: 0;
+  }
  
 }
 
@@ -101,12 +112,8 @@ footer div {
   padding-bottom: 0;
 }
 
-.footer li:first-child {
+.footer li:last-child {
   border-style: none;
-}
-
-section {
-  font-family: "roboto";
 }
 
 .footer li a i {
@@ -126,8 +133,7 @@ section {
 .art div img {
   width: 33%;
   float: left;
-  padding-left: 5%;
-  padding-right: 5%;
+  
 }
 
 section h1 {
@@ -158,19 +164,14 @@ h4 {
   font-size: 2vw;
 }
 
-.home h2,
-h3,
-h4 {
+.home h2 h3 h4 {
   margin-left: 20%;
 }
 
 
-/*----------------------------*/
+/*--------------Links--------------*/
 
-.blog h3,
-h4 {
-  margin-bottom: 5%;
-}
+
 
 a:link{text-decoration: none;
 }
@@ -187,6 +188,12 @@ a:link{text-decoration: none;
     
 a {color: #000}
 
+/*---------------Blog-----------------------*/
+
+.blog h3,
+h4 {
+  margin-bottom: 5%;
+}
 
 .running {
   width: 40vw;
@@ -199,6 +206,8 @@ a {color: #000}
   margin-left: auto;
   margin-right: auto;
 }
+
+/*--------------------Projects--------------------*/
 
 .project {
   margin: 5vw;
@@ -278,119 +287,15 @@ a {color: #000}
   margin-bottom: 10%;
 }
 
-
-/*-----------------------*/
-
-.contact li {
-  list-style-position: inside;
-  text-align: center;
-  font-size: 30px;
-  list-style-type: none;
-}
-
-.contacth2 {
-  text-align: center;
+.projecttitle h4 {
+  margin-bottom: 0;
   margin-left: 0;
-  padding-bottom: 50px;
 }
 
-
-/*-----------------------*/
-
-.columnbloglimg {
-  max-width: 34%;
-}
-
-.bloglimg {
-  width: 30vw;
-  margin-top: 10vw;
-  margin-left: 4vw;
-}
-
-.columnblogl {
-  max-width: 66%;
-  margin-top: 10vw;
-}
-
-.bloglheader {
+.projecttitle {
   text-align: center;
-  margin-left: 10vw;
-  margin-right: 0%;
-  font-size: 2.5vw;
-  font-family: "lobster";
 }
 
-.bloglp {
-  text-align: center;
-  margin-left: 10vw;
-  margin-right: 0%;
-  font-size: 2vw;
-  font-family: "roboto";
-  margin-bottom: 10%;
-}
-
-.columnblogr {
-  max-width: 66%;
-}
-
-.blogrheader {
-  text-align: center;
-  margin-left: 0;
-  margin-right: 5vw;
-  font-size: 2.5vw;
-  font-family: "lobster";
-}
-
-.blogrp {
-  clear: right;
-  margin-left: 0;
-  margin-right: 10%;
-  text-align: center;
-  font-size: 2vw;
-  font-family: "roboto";
-}
-
-.columnblogrimg {
-  max-width: 34%;
-}
-
-.blogrimg {
-  width: 100%;
-  margin-top: 37%;
-}
-
-.row {
-  margin: 0 0;
-}
-
-.container {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-
-/*--------------------------------------------*/
-
-.columnblogpost {
-  max-width: 66%;
-  text-align: left;
-  margin-left: 16%;
-  margin-right: 16%;
-  font-size: 2vw;
-}
-
-.blogposttitle {
-  margin-left: 0;
-  font-size: 3vw;
-  text-align: center;
-  font-family: "lobster";
-}
-
-.blog1 {
-  max-width: 66%;
-  text-align: center;
-  margin-left: 19%;
-}
 
 
 /*-----------------Guys and Dolls--------------------------*/
@@ -402,7 +307,7 @@ a {color: #000}
 }
 
 
-/* Create four equal columns that sits next to each other */
+
 
 .column1 {
   flex: 33%;
@@ -476,16 +381,126 @@ a {color: #000}
 }
 
 
-/*------Projects------*/
 
-.projecttitle h4 {
-  margin-bottom: 0;
-  margin-left: 0;
+
+
+
+
+
+
+
+/*---------------Blog-----------------------*/
+
+.blog h3,
+h4 {
+  margin-bottom: 5%;
 }
 
-.projecttitle {
+.running {
+  width: 40vw;
+  margin-left: 14vw;
+}
+
+.aber {
+  width: 40vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columnbloglimg {
+  max-width: 34%;
+}
+
+.bloglimg {
+  width: 30vw;
+  margin-top: 10vw;
+  margin-left: 4vw;
+}
+
+.columnblogl {
+  max-width: 66%;
+  margin-top: 10vw;
+}
+
+.bloglheader {
   text-align: center;
+  margin-left: 10vw;
+  margin-right: 0%;
+  font-size: 2.5vw;
+  font-family: "lobster";
 }
+
+.bloglp {
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 0%;
+  font-size: 2vw;
+  font-family: "roboto";
+  margin-bottom: 10%;
+}
+
+.columnblogr {
+  max-width: 66%;
+}
+
+.blogrheader {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 5vw;
+  font-size: 2.5vw;
+  font-family: "lobster";
+}
+
+.blogrp {
+  clear: right;
+  margin-left: 0;
+  margin-right: 10%;
+  text-align: center;
+  font-size: 2vw;
+  font-family: "roboto";
+}
+
+.columnblogrimg {
+  max-width: 34%;
+}
+
+.blogrimg {
+  width: 100%;
+  margin-top: 37%;
+}
+
+.row {
+  margin: 0 0;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.columnblogpost {
+  max-width: 66%;
+  text-align: left;
+  margin-left: 16%;
+  margin-right: 16%;
+  font-size: 2vw;
+}
+
+.blogposttitle {
+  margin-left: 0;
+  font-size: 3vw;
+  text-align: center;
+  font-family: "lobster";
+}
+
+.blog1 {
+  max-width: 66%;
+  text-align: center;
+  margin-left: 19%;
+}
+
+
 
 
 /*---contact.html-----*/
@@ -526,4 +541,17 @@ form {
 textarea {
   height: 20vw;
   width: 100%;
+}
+
+.contact li {
+  list-style-position: inside;
+  text-align: center;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.contacth2 {
+  text-align: center;
+  margin-left: 0;
+  padding-bottom: 50px;
 }
